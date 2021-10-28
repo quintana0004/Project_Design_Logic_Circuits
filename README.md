@@ -16,3 +16,6 @@ This is the First Version of the Project
 
 This is the Second Version of the Project
 
+![version2](https://user-images.githubusercontent.com/66384782/139343684-aa45dc1b-cd60-4e79-a7e0-2d751269a1cb.png)
+
+Both versions contain the same schema. 
