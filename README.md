@@ -40,7 +40,7 @@ Inside of the Switch Circuit contains two bypass that will activate with the T f
 ![counter](https://user-images.githubusercontent.com/66384782/139346781-ce6ccd6f-02bd-4271-9b97-4fddcb1be324.png)
 
 
-This is the Second Version of the Project
+### This is the Second Version of the Project
 
 ![version2](https://user-images.githubusercontent.com/66384782/139343684-aa45dc1b-cd60-4e79-a7e0-2d751269a1cb.png)
 
