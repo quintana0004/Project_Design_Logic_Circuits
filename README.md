@@ -1,0 +1,2 @@
+# Project_Design_Logic_Circuits
+This project was made with LogiSim, it's purpose is to detect " Flip " , that is case sensitive. Once the word is detected one of the screen will be placing all the characters switching  from upper case to lower case and vice versa. Any other characters that are signs will not be altered while flip is detected. As well this system will count from 0 to 3 the times that the word flip has been detected. 
