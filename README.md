@@ -20,14 +20,19 @@ Switch Circuit
 ![switch circuit](https://user-images.githubusercontent.com/66384782/139346713-c320e5d9-df9f-4ffb-8eca-8a3959f70ac5.png)
 
 Bypass 1
+![bypass1](https://user-images.githubusercontent.com/66384782/139346765-084ee6b2-5372-4052-a73c-6d1e7780fe90.png)
 
 Bypass 2
+![bypass2](https://user-images.githubusercontent.com/66384782/139346770-86250702-c040-41ac-8526-7058cceb466d.png)
 
 Dual Comparator
+![dual comparator](https://user-images.githubusercontent.com/66384782/139346774-d63a7f8a-a390-424e-b47c-a5d685de20b7.png)
 
 Flip Detector
 
+
 Flip Counter
+![counter](https://user-images.githubusercontent.com/66384782/139346781-ce6ccd6f-02bd-4271-9b97-4fddcb1be324.png)
 
 This is the Second Version of the Project
 
