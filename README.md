@@ -14,6 +14,20 @@ This is the First Version of the Project
 
 ![Version1](https://user-images.githubusercontent.com/66384782/139343471-d929aa40-a46d-4c4d-9355-cb9c63b87478.png)
 
+The normal screen will display everything that user has written without any changes, while the other screen will be displaying the change made by the Switch Circuit block that helps to switch the letters from upper to lower case and vice versa when it receives a high signal from the flip detector once is detected as well the counter will count each flip detection, it goes from 0 to 3.
+
+Switch Circuit
+
+Bypass 1
+
+Bypass 2
+
+Dual Comparator
+
+Flip Detector
+
+Flip Counter
+
 This is the Second Version of the Project
 
 ![version2](https://user-images.githubusercontent.com/66384782/139343684-aa45dc1b-cd60-4e79-a7e0-2d751269a1cb.png)
