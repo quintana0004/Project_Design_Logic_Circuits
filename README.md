@@ -16,7 +16,7 @@ https://github.com/quintana0004/VHDL_Project_LOGIC_CIRCUIT_PROJECT
 
 ![Version1](https://user-images.githubusercontent.com/66384782/139343471-d929aa40-a46d-4c4d-9355-cb9c63b87478.png)
 
-######Switch Circuit
+######Switch Circuit######
 
 ![switch circuit](https://user-images.githubusercontent.com/66384782/139350450-af605acf-b502-4d7c-bce6-a26f97dd0c3b.png)
 
