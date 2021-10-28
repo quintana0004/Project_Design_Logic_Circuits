@@ -14,6 +14,20 @@ This is the First Version of the Project
 
 ![Version1](https://user-images.githubusercontent.com/66384782/139343471-d929aa40-a46d-4c4d-9355-cb9c63b87478.png)
 
+Switch Circuit
+
+Bypass1
+![bypass1](https://user-images.githubusercontent.com/66384782/139346765-084ee6b2-5372-4052-a73c-6d1e7780fe90.png)
+
+Bypass2
+![bypass2](https://user-images.githubusercontent.com/66384782/139346770-86250702-c040-41ac-8526-7058cceb466d.png)
+
+Dual Comparator
+![dual comparator](https://user-images.githubusercontent.com/66384782/139346774-d63a7f8a-a390-424e-b47c-a5d685de20b7.png)
+
+Counter
+![counter](https://user-images.githubusercontent.com/66384782/139346781-ce6ccd6f-02bd-4271-9b97-4fddcb1be324.png)
+
 
 This is the Second Version of the Project
 
