@@ -12,7 +12,7 @@ This project contains concepts such as sequence detectors, shift registers, flip
 This is the link of the VHDL code of this project:
 https://github.com/quintana0004/VHDL_Project_LOGIC_CIRCUIT_PROJECT
 
-##This is the First Version of the Project
+###This is the First Version of the Project
 
 ![Version1](https://user-images.githubusercontent.com/66384782/139343471-d929aa40-a46d-4c4d-9355-cb9c63b87478.png)
 
