@@ -21,7 +21,7 @@ https://github.com/quintana0004/VHDL_Project_LOGIC_CIRCUIT_PROJECT
 
 ![switch circuit](https://user-images.githubusercontent.com/66384782/139350450-af605acf-b502-4d7c-bce6-a26f97dd0c3b.png)
 
-Inside of the Switch Circuit contains two bypass that will activate with the T flip flop that output will be acting as a selector for the multiplexer that outputs the 7 bits of each character entered by the keyboard, the output will depend by the Bypass_1 and Bypass_2.
+- Inside of the Switch Circuit contains two bypass that will activate with the T flip flop that output will be acting as a selector for the multiplexer that outputs the 7 bits of each character entered by the keyboard, the output will depend by the Bypass_1 and Bypass_2.
 
 **Bypass_1**
 
