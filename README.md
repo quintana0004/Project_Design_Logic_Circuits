@@ -27,17 +27,29 @@ https://github.com/quintana0004/VHDL_Project_LOGIC_CIRCUIT_PROJECT
 
 ![bypass1](https://user-images.githubusercontent.com/66384782/139346765-084ee6b2-5372-4052-a73c-6d1e7780fe90.png)
 
+- This is Bypass_1 that will get the ouput of the Dual_Comporator that identify if there character entered is a letter or a space (in ASCII table the decimal value is 32), the letters can be upper-case (due to the ASCII table that the decimal values goes from 65 to 90) or lower-case (due to the ASCII table that the decimal values goes from 97 to 122). The output will be conected as a selector to the multiplexer 2:1, the multiplexer will give a null to any value that isn't a letter or space. If it is a letter or space then it will proceed to change the letter with the arithmetic boxes that one is addition and the other is subtraction. It first compares if the character is bigger or smaller, then it will pass the value to one of the boxes, the carry out will be acting as a bit selector for the multiplexer 8:1 to pass the output. There is another box comporator that will pass if the value is space. The addition and subtraction boxes are full adders, but unsigned, meaning no negative values. 
+
 **Bypass_2**
 
 ![bypass2](https://user-images.githubusercontent.com/66384782/139346770-86250702-c040-41ac-8526-7058cceb466d.png)
+
+- This is Bypass_2 that will get the ouput of the Dual_Comporator that identify if there character entered is a letter or a space (in ASCII table the decimal value is 32), the letters can be upper-case (due to the ASCII table that the decimal values goes from 65 to 90) or lower-case (due to the ASCII table that the decimal values goes from 97 to 122). If it not a letter or space then it will be passing null. Important the values that are contant are in hexadecimal values in 7 bits. 
 
 **Dual Comparator**
 
 ![dual comparator](https://user-images.githubusercontent.com/66384782/139346774-d63a7f8a-a390-424e-b47c-a5d685de20b7.png)
 
+- This Dual Comparator is in charge to detect in the range of 65 to 90 (upper case) and 97 to 122 (lower case) and the comparator box that will detect the space. There is a tunnel that connects the output of the comporator boxes to a the EXNOR gate that if both values are the same the output will be high if not the it will be low (this is used for the letters). 
+
 **Counter**
 
 ![counter](https://user-images.githubusercontent.com/66384782/139346781-ce6ccd6f-02bd-4271-9b97-4fddcb1be324.png)
+
+
+
+- Uses two D type flip flop, this was implented by creating a state diagram, state table,and k-maps. The number was displayed with a hex display. 
+
+
 
 
 ### This is the Second Version of the Project
