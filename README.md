@@ -100,3 +100,11 @@ both type of cases. What changes are the number of gates being in use, instead o
 - The same counter is used for both versions of the circuit. 
 
 Both versions contain the same schema. The normal screen will display everything that user has written without any changes, while the other screen will be displaying the change made by the Switch Circuit block that helps to switch the letters from upper to lower case and vice versa when it receives a high signal from the flip detector once is detected as well the counter will count each flip detection, it goes from 0 to 3.
+
+## Output of the First Version
+
+![image](https://user-images.githubusercontent.com/66384782/139373476-585833ae-626d-44ee-9a12-3b06e3b204cb.png)
+
+## Output of the Second Version
+
+![image](https://user-images.githubusercontent.com/66384782/139373518-305d014d-5299-491a-8e07-e464100ea0c9.png)
