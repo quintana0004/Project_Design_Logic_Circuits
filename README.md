@@ -46,6 +46,19 @@ https://github.com/quintana0004/VHDL_Project_LOGIC_CIRCUIT_PROJECT
 ![counter](https://user-images.githubusercontent.com/66384782/139346781-ce6ccd6f-02bd-4271-9b97-4fddcb1be324.png)
 
 
+* *Counter State Diagram* *
+
+![image](https://user-images.githubusercontent.com/66384782/139362260-0b527534-47fc-427b-b471-c0f27e2cfa8e.png)
+
+
+* *Counter State Table* *
+
+![image](https://user-images.githubusercontent.com/66384782/139362320-fcdfa0f6-15ab-44ac-800a-620af3c26687.png)
+
+* *Counter K-map* *
+
+![image](https://user-images.githubusercontent.com/66384782/139362340-7104b914-ee9d-45d8-b382-c758e8870b0d.png)
+
 
 - Uses two D type flip flop, this was implented by creating a state diagram, state table,and k-maps. The number was displayed with a hex display. 
 
