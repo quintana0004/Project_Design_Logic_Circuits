@@ -50,7 +50,7 @@ Counter State Diagram
 
 ![image](https://user-images.githubusercontent.com/66384782/139362260-0b527534-47fc-427b-b471-c0f27e2cfa8e.png)
 
-- what is missing in this state diagram is the output on the state of each square, the output will be cero until it hits to the state 11 that will give and output of 3.
+- what is missing in this state diagram is the output on the state of each square, the output will be cero until it hits to the state 11 that will give and output of 3, this will be a moore state diagram.
 
 Counter State Table
 
