@@ -41,33 +41,42 @@ https://github.com/quintana0004/VHDL_Project_LOGIC_CIRCUIT_PROJECT
 
 - This Dual Comparator is in charge to detect in the range of 65 to 90 (upper case) and 97 to 122 (lower case) and the comparator box that will detect the space. There is a tunnel that connects the output of the comporator boxes to a the EXNOR gate that if both values are the same the output will be high if not the it will be low (this is used for the letters). 
 
-**Counter**
+**Flip Counter**
 
 ![counter](https://user-images.githubusercontent.com/66384782/139346781-ce6ccd6f-02bd-4271-9b97-4fddcb1be324.png)
 
 
-* *Counter State Diagram* *
+Counter State Diagram
 
 ![image](https://user-images.githubusercontent.com/66384782/139362260-0b527534-47fc-427b-b471-c0f27e2cfa8e.png)
 
 
-* *Counter State Table* *
+Counter State Table
 
 ![image](https://user-images.githubusercontent.com/66384782/139362320-fcdfa0f6-15ab-44ac-800a-620af3c26687.png)
 
-* *Counter K-map* *
+Counter K-map
 
 ![image](https://user-images.githubusercontent.com/66384782/139362340-7104b914-ee9d-45d8-b382-c758e8870b0d.png)
 
 
 - Uses two D type flip flop, this was implented by creating a state diagram, state table,and k-maps. The number was displayed with a hex display. 
 
+**Flip Detector**
 
-
+- This flip detector contains shift registers that is a SIPO (Serial In/Parallel Out) effect, the shift register are going to be passing each character to the right and each AND gate will detect the space and word flip. The splitter that isn't used in the AND gates are don't cares since the difference of the 7 bits to be a lower case or upper case is only the second bit that may change, by doing this the word flip can be case sensitive. 
 
 ### This is the Second Version of the Project
 
 ![version2](https://user-images.githubusercontent.com/66384782/139343684-aa45dc1b-cd60-4e79-a7e0-2d751269a1cb.png)
+
+**Switch Circuit**
+
+**Sub_Add_Comporator**
+
+**Flip Detector**
+
+**Flip Counter**
 
 
 Both versions contain the same schema. The normal screen will display everything that user has written without any changes, while the other screen will be displaying the change made by the Switch Circuit block that helps to switch the letters from upper to lower case and vice versa when it receives a high signal from the flip detector once is detected as well the counter will count each flip detection, it goes from 0 to 3.
