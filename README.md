@@ -64,6 +64,9 @@ Counter K-map
 
 **Flip Detector**
 
+![image](https://user-images.githubusercontent.com/66384782/139363414-1c7a4cd8-82df-4161-8bac-30c30fb90286.png)
+
+
 - This flip detector contains shift registers that is a SIPO (Serial In/Parallel Out) effect, the shift register are going to be passing each character to the right and each AND gate will detect the space and word flip. The splitter that isn't used in the AND gates are don't cares since the difference of the 7 bits to be a lower case or upper case is only the second bit that may change, by doing this the word flip can be case sensitive. 
 
 ### This is the Second Version of the Project
@@ -72,11 +75,27 @@ Counter K-map
 
 **Switch Circuit**
 
+![image](https://user-images.githubusercontent.com/66384782/139363486-a8874fe1-a983-463e-aa2b-04d11abf41c1.png)
+
+- This does the same thing as the first version of the Switch Circuiot intead of having two bypass, this will be letting any letter and sign character to pass if the output of T flip flop is cero that still acts as a selector to the multiplexer. 
+
 **Sub_Add_Comporator**
+
+![image](https://user-images.githubusercontent.com/66384782/139363510-a9981cc3-c912-4d81-b10a-b0066b776a0d.png)
+
+- On the Sub_Add_Comparator_2, provided a change on the gates used for the comparator, this time the range goes in both comparators for the upper case as "if 64 greater than or 91 less than " and for the second boxes for lower case as "if 96 greater than or 123 less than". This will cover 65 to 90 and 97 to 122 for 
+both type of cases. What changes are the number of gates being in use, instead of having four OR gates, two AND gates and one XOR gate. It was reduced to two XNOR gates and one OR gates, in which this is better, meaning it requires less material and reaches to the outcome wanted. The following XNOR gates will provide a one if both inputs are the same, and a cero if they are different, once passed both output values of the XNOR gate to the OR gate this will indicate the selected input value to pass.
 
 **Flip Detector**
 
+![image](https://user-images.githubusercontent.com/66384782/139363532-a1f25f58-af92-48c5-97b1-c156b02f7a33.png)
+
+- This flip detector has the same structure of the first version instead it uses the comparators to detect the flip and it's spaces. 
+
 **Flip Counter**
 
+![image](https://user-images.githubusercontent.com/66384782/139363547-5232a761-314d-4477-bac7-8ab6a041aa97.png)
+
+- The same counter is used for both versions of the circuit. 
 
 Both versions contain the same schema. The normal screen will display everything that user has written without any changes, while the other screen will be displaying the change made by the Switch Circuit block that helps to switch the letters from upper to lower case and vice versa when it receives a high signal from the flip detector once is detected as well the counter will count each flip detection, it goes from 0 to 3.
